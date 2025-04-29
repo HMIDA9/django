@@ -1,0 +1,41 @@
+acces admin http://127.0.0.1:8000/admin
+acces user  http://127.0.0.1:8000
+python manage.py runserver run server
+
+
+
+
+
+
+
+C'est un Système de Gestion des Étudiants qui permet de :
+
+Gérer les informations des étudiants
+Effectuer toutes les opérations CRUD (Create, Read, Update, Delete)
+Rechercher des étudiants
+Gérer les photos de profil
+Puis accédez à http://127.0.0.1:8000
+Connexion
+Utilisez les identifiants que vous avez créés avec createsuperuser
+Email : omar.hmida.lgl@gmail.com
+Mot de passe : celui que vous avez défini
+Fonctionnalités Principales
+Page d'accueil : Vue d'ensemble avec deux options principales :
+"View Students" : Voir la liste des étudiants
+"Add Student" : Ajouter un nouvel étudiant
+Liste des Étudiants :
+Tableau avec tous les étudiants
+Pagination (10 étudiants par page)
+Barre de recherche en haut
+Boutons "Edit" et "Delete" pour chaque étudiant
+Ajouter/Modifier un Étudiant :
+Formulaire avec les champs :
+Prénom (First Name)
+Nom (Last Name)
+Email
+Date de naissance
+Photo de profil (optionnel)
+Note (Grade)
+Recherche :
+Utilisez la barre de recherche pour trouver des étudiants
+La recherche se fait sur le nom, prénom et email
